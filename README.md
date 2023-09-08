@@ -56,4 +56,4 @@ The contributions of this repository can be summarized as follows:
 
 ## License
 
-Developed by Diego Hidalgo C. (2021). This repository is intended for research purposes only. If you wish to use any parts of the provided code for commercial purposes, please contact the author at hidalgocdiego@gmail.com.
+Developed by Diego Hidalgo C. (2022). This repository is intended for research purposes only. If you wish to use any parts of the provided code for commercial purposes, please contact the author at hidalgocdiego@gmail.com.
