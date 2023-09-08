@@ -51,7 +51,7 @@ The contributions of this repository can be summarized as follows:
 ### Controling of robotic index finder based on readings from human finger
 
 <p align="center">
-   <img src="/Visualizations/Hand_telepresence.gif" width="550" />
+   <img src="/Visualizations/Hand_telepresence.gif" width="450" />
 </p>
 
 ## License
