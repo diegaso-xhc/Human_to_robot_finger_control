@@ -10,37 +10,30 @@ In an attempt to provide the robotics community with an alternative for the afor
 <br />
 This repository contains ROS based algorithms to control an RH8D Seed Robotics robot hand via tactile sensing signals. These signals can be effortlessly replaced with other sensor signals, making the control of this robot hand easily implementable.
 <br />
+<br />
 <p align="center">
    <img src="/Visualizations/Human_to_robot_hand.png" width="700" />
 </p>
-
 <br />
 
 ## Understanding repository
 
-The repository was developed in C#, using the following software version:
+The repository was developed using the following software version:
 
 ```
-- Microsoft Visual Studio Community 2019 (Version 16.11.29)
-- Target Framework: .NET Framework 4.6.1
-- OxyPlot.Wpf (Version 2.1.2) --> Can be installed using NuGet package manager
-- OxyPlot (Version 2.1.2) --> Can be installed using NuGet package manager
-- OxyPlot.Wpf.Shared (Version 2.1.2) --> Can be installed using NuGet package manager
+- Ubuntu 18.04
+- ROS Melodic
 ```
 
-The project has been compiled using the aforementioned libraries into a self contained project. Nevertheless, if some compilation errors arise, please check the aforementioned versions. The most relevant files on the repository are detailed as follows:
+The project has been tested using the aforementioned software versions. However, it can be effortlessly extended to newer Ubuntu or ROS versions. This repository contains the following:
 
 ```
-- backupFunctions.cs --> Operates on parameters within system modeling, such as raw phase and angle vectors extracted from a system's response.
-- DifferentialEquations.cs --> Handles system model representations, transfer functions arithmetics, contains Runge–Kutta methods, prints different model representations of a system.
-- fastFourierTransform.cs --> Transforms time space vectors into the frequency (fast Fourier transform) and viceversa (inverse fast Fourier transform).
-- Matrix.cs --> Handles matrices in an efficient manner.
-- MainWindow.xaml --> Contains the code required by WPF to launch the GUI for the user.
-- MainWindow.xaml.cs --> Handles user requests and returns required outputs.
+- dynamixel motor --> A collection of ROS packages which deals with the low level control of dynamixel motors (used in the RH8D hand).
+- my_dynamixel_tutorial --> A Package containing the required nodes to launch the RH8D hand within Ubuntu 18.04.
+- sensor_pkg --> A package developed by Seed Robotics for reading signals from the robot hand's fingertip tactile sensors.
+- Sensors_read --> A python package developed to reading serial signals (up to 16 at the time) which can be used to control the hand directly.
+- RH8D_control --> A c++ package developed to subscribe to the sensors topic and map signals to robot hand motions. 
 ```
-<br />
-UPDATE (09.2023): Due to a recent change of the chart visualization library, it is worth noticing at the moment only the time response and frequency spectrum can be displayed graphically. The authors are currently updating the Bode and Nichols diagrams. Nevertheless, besides visualization, all functions are implemented and fully functional. The user simply needs to print the outputs or create methods to use them.
-<br />
 <br />
 
 ## Contributions
