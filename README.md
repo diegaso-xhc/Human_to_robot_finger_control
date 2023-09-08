@@ -2,7 +2,13 @@
 
 ## Overview of the repostitory
 <div align="justify">
-Simulating systems response is crucial to understand them and to develop suitable controllers depending on application requirements. For instance in 5-axis CNCs, the control parameters used for each one of their axes could have a considerable impact on the overall manufacturing accuracy. Likewise, in certain robotics applications, controllers need to operate with high precision. 
+The usage of robotic hands for grasping is one of the main disciplins being explored within the robotics field in recent years. State of the art robot hand designs and control algorithms have not yet reached a performance level comparable to human hands. Partly the reason for this is the lack of sensing both on a tactile level (interactions with the environment, e.g., forces, temperature, among others) and on a mechanical level. The constrained available space in robotic hands, makes embedding position and torque sensors unfeasible. 
+
+<br />
+In an attempt to provide the robotics community with an alternative for the aforementioned issue, the author along with other colleagues have proposed a general framework for tactile sensing. We showed that this <a href="https://ieeexplore.ieee.org/document/10161344">framework</a> can be used to control a robot hand with sensor measurements in a human hand. Please see the <a href="https://www.youtube.com/watch?v=i43wgx9bT-E">video</a> for reference. Additional media attention to this topic can be seen <a href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/robotik-neue-hautaehnliche-sensoren-passen-fast-immer">here</a>.
+
+
+ Simulating systems response is crucial to understand them and to develop suitable controllers depending on application requirements. For instance in 5-axis CNCs, the control parameters used for each one of their axes could have a considerable impact on the overall manufacturing accuracy. Likewise, in certain robotics applications, controllers need to operate with high precision. 
 <br />
 <br />
 Several high performance platforms (e.g. Matlab) offer a control systems toolbox which can be used reliably to model and control systems. Nevertheless, these toolboxes tend to be built on proprietary functions, which can't be customized depending on user needs. This repository is intended to provide an open source platform with similar functionalities for representing systems responses and understanding what controllers are suitable for them. Additionally, thanks to its versatility and structure, this repository can be used for teaching purposes, helping students understand the magic happening behing control toolboxes.
