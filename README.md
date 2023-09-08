@@ -11,18 +11,11 @@ In an attempt to provide the robotics community with an alternative for the afor
 <br />
 
 This repository contains ROS based algorithms to control an RH8D Seed Robotics robot hand via tactile sensing signals. These signals can be effortlessly replaced with other sensor signals, making the control of this robot hand easily implementable.
-
 <br />
-<br />
-Several high performance platforms (e.g. Matlab) offer a control systems toolbox which can be used reliably to model and control systems. Nevertheless, these toolboxes tend to be built on proprietary functions, which can't be customized depending on user needs. This repository is intended to provide an open source platform with similar functionalities for representing systems responses and understanding what controllers are suitable for them. Additionally, thanks to its versatility and structure, this repository can be used for teaching purposes, helping students understand the magic happening behing control toolboxes.
-<br /> 
-<br />
-This toolbox was used on for the development of the <a href="https://www.sciencedirect.com/science/article/pii/S2212827117302305">scientific article</a>, which shows an approach to reduce inaccuracies on five-axis CNCs.
-<br /> 
-<br /> 
- <p align="center">
-   <img src="/Visualizations/Time_response_cursor.png" width="700" />
+<p align="center">
+   <img src="/Visualizations/Human_to_robot_hand.png" width="700" />
 </p>
+
 <br />
 
 ## Understanding repository
