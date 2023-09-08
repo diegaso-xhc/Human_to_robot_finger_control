@@ -3,12 +3,10 @@
 ## Overview of the repostitory
 <div align="justify">
 The usage of robotic hands for grasping is one of the main disciplins being explored within the robotics field in recent years. State of the art robot hand designs and control algorithms have not yet reached a performance level comparable to human hands. Partly the reason for this is the lack of sensing both on a tactile level (interactions with the environment, e.g., forces, temperature, among others) and on a mechanical level. The constrained available space in robotic hands, makes embedding position and torque sensors unfeasible. 
-
-
+<br />
 <br />
 In an attempt to provide the robotics community with an alternative for the aforementioned restrictions, the authors have proposed a general framework for tactile sensing. We showed that this <a href="https://ieeexplore.ieee.org/document/10161344">framework</a> can be used to control a robot hand with sensor measurements in a human hand. Please see the <a href="https://www.youtube.com/watch?v=i43wgx9bT-E">video</a> for reference. Additional media attention to this topic can be seen <a href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/robotik-neue-hautaehnliche-sensoren-passen-fast-immer">here</a>.
-
-
+<br />
 <br />
 This repository contains ROS based algorithms to control an RH8D Seed Robotics robot hand via tactile sensing signals. These signals can be effortlessly replaced with other sensor signals, making the control of this robot hand easily implementable.
 <br />
