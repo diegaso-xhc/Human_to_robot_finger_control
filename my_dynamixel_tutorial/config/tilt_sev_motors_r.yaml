@@ -1,0 +1,103 @@
+W_r_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Wrist_rotation
+    joint_speed: 1.0
+    motor:
+        id: 31
+        init: 2048
+        min: 0
+        max: 4096
+        
+W_a_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Wrist_adduction
+    joint_speed: 1.0
+    motor:
+        id: 32
+        init: 2048
+        min: 0
+        max: 4096
+
+W_f_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Wrist_flexion
+    joint_speed: 1.0
+    motor:
+        id: 33
+        init: 2048
+        min: 0
+        max: 4096
+
+Th_a_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Thumb_adduction
+    joint_speed: 1.0
+    motor:
+        id: 34
+        init: 2048
+        min: 0
+        max: 4096
+
+Th_f_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Thumb_flexion
+    joint_speed: 1.0
+    motor:
+        id: 35
+        init: 2048
+        min: 0
+        max: 4096
+
+I_f_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Index_flexion
+    joint_speed: 1.0
+    motor:
+        id: 36
+        init: 2048
+        min: 0
+        max: 4096
+
+M_f_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Middle_flexion
+    joint_speed: 1.0
+    motor:
+        id: 37
+        init: 2048
+        min: 0
+        max: 4096
+
+RL_f_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: Ring_little_flexion
+    joint_speed: 1.0
+    motor:
+        id: 38
+        init: 2048
+        min: 0
+        max: 4096

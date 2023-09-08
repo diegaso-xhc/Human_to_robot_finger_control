@@ -1,0 +1,10 @@
+<launch>
+        <arg name="port" default="/dev/ttyUSB1" />
+        <node pkg="sensor_pkg" name="seed_fts3" type="read_publish_sensor_node.py">
+                <param name="port" value="$(arg port)" />
+                <rosparam>
+                sensor_number: 5
+                </rosparam>
+        </node>
+
+</launch>

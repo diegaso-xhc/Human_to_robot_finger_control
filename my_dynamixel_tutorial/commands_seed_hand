@@ -1,0 +1,8 @@
+Important commands:
+
+roscd
+roslaunch my_dynamixel_tutorial controller_manager.launch
+roslaunch my_dynamixel_tutorial start_meta_controller.launch
+rostopic list
+rostopic pub -1 /tilt_controller/command std_msgs/Float64 -- 1.5
+
