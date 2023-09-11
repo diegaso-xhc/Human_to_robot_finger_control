@@ -1,6 +1,6 @@
 # Control of robot fingers via human hands
 
-## Overview of the repostitory
+## Overview of the repository
 <div align="justify">
 The usage of robotic hands for grasping is one of the main disciplins being explored within the robotics field in recent years. State of the art robot hand designs and control algorithms have not yet reached a performance level comparable to human hands. Partly the reason for this is the lack of sensing both on a tactile level (interactions with the environment, e.g., forces, temperature, among others) and on a mechanical level. The constrained available space in robotic hands, makes embedding position and torque sensors unfeasible. 
 <br />
